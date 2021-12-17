@@ -75,10 +75,11 @@ class AllAverages(object):
 
 if _name__== '__main_':
     all_excel_files = {
-        "SOG": r"C:\Users\Gauthier\Downloads\Price History_20211215_1927.xlsx",
-        "CA": r"C:\Users\Gauthier\Downloads\Price History_20211215_1928.xlsx",
-        "BNP": r"C:\Users\Gauthier\Downloads\Price History_20211215_1725.xlsx",
-        # ... Ajouter les nouveaux fichiers ici
+        # Dict contains:
+            # Key: name of stock
+            # Value: Excel file
+        # ... Add new Excel File
+        # If data does not come from Refenitiv tool adjust column and row args un AllAverages to match the required cells
          }
 
     solution = AllAverages(all_excel_files, path_amount=100)
