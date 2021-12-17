@@ -1,4 +1,3 @@
-Gauthier Chassain
 import xlrd
 import matplotlib.pyplot as plt
 import numpy as np
